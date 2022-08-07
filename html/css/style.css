@@ -614,6 +614,7 @@ div#main_slider {
     text-align: center;
     padding-bottom: 0px;
     line-height: 95px;
+    overflow: hidden;
 }
 
 .daily_text {
