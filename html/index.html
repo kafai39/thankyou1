@@ -1,0 +1,436 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <!-- basic -->
+   <meta charset="utf-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <!-- mobile metas -->
+   <meta name="viewport" content="width=device-width, initial-scale=1">
+   <meta name="viewport" content="initial-scale=1, maximum-scale=1">
+   <!-- site metas -->
+   <title>感謝 * 包師姐</title>
+   <meta name="keywords" content="">
+   <meta name="description" content="">
+   <meta name="author" content="">
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+   <!-- bootstrap css -->
+   <link rel="stylesheet" href="css/bootstrap.min.css">
+   <!-- style css -->
+   <link rel="stylesheet" href="css/style.css">
+   <!-- Responsive-->
+   <link rel="stylesheet" href="css/responsive.css">
+   <!-- fevicon -->
+   <link rel="icon" href="images/fevicon.png" type="image/gif" />
+   <!-- Scrollbar Custom CSS -->
+   <link rel="stylesheet" href="css/jquery.mCustomScrollbar.min.css">
+   <!-- Tweaks for older IEs-->
+   <link rel="stylesheet" href="css/font-awesome.css">
+   <!-- owl stylesheets -->
+   <link rel="stylesheet" href="css/owl.carousel.min.css">
+   <link rel="stylesheet" href="css/owl.theme.default.min.css">
+   <link rel="stylesheet" href="css/jquery.fancybox.min.css" media="screen">
+   <style>
+      #main_slider a.carousel-control-prev, #main_slider a.carousel-control-next {
+         display: none;
+      }
+
+      :root {
+      --angle: 45deg;
+      --opacity: 0.5;
+      }
+
+      *,
+      *::before,
+      *::after {
+      box-sizing: border-box;
+      }
+
+      .rainbow { 
+      border-radius: 10px;
+      padding: 2rem;
+      margin: auto;
+
+      display: grid;
+      place-content: center;
+      text-align: center;
+
+      font-size: 1.5em;
+
+      --border-size: 0.3rem;
+      border: var(--border-size) dotted transparent;
+      background-image: linear-gradient(
+            to right,
+            rgb(255 255 255 / var(--opacity)),
+            rgb(255 255 255 / var(--opacity))
+         ),
+         conic-gradient(
+            from var(--angle),
+            #d53e33 0deg 90deg,
+            #fbb300 90deg 180deg,
+            #377af5 180deg 270deg,
+            #399953 270deg 360deg
+         );
+      background-origin: border-box;
+      background-clip: padding-box, border-box;
+      }
+
+      /** show a warning in browers that don't support it **/
+      .warning {
+      margin: 2em;
+      padding: 1em;
+      border: 1px solid #ccc;
+      }
+      .warning p {
+      margin: 0;
+      padding: 0;
+      text-align: center;
+      }
+      /* Animate when Houdini is available */
+      @supports (background: paint(houdini)) {
+      @property --opacity {
+         syntax: "<number>";
+         initial-value: 0.5;
+         inherits: false;
+      }
+
+      @property --angle {
+         syntax: "<angle>";
+         initial-value: 0deg;
+         inherits: false;
+      }
+
+      @keyframes opacityChange {
+         to {
+            --opacity: 1;
+         }
+      }
+
+      @keyframes rotate {
+         to {
+            --angle: 360deg;
+         }
+      }
+
+      .rainbow {
+         animation: rotate 4s linear infinite, opacityChange 3s infinite alternate;
+      }
+
+      /* Hide the warning */
+      .warning {
+         display: none;
+      }
+      }
+
+      .text-rainbow-animation {
+      font-family:arial black;
+      font-size:70px;
+      background-image: 
+         linear-gradient(to right, 
+            #d53e33,
+            #fbb300,
+            #377af5,
+            #399953); 
+      -webkit-background-clip: text;
+         -webkit-text-fill-color: transparent;  
+      animation: rainbow-animation 800s linear infinite;
+      }
+
+      @keyframes rainbow-animation {
+         to {
+            background-position: 4500vh;
+         }
+      }
+
+      @media (min-width: 768px) and (max-width: 991px) {
+  
+    .image_main::after {
+        display:inherit !important;
+    }
+    .main_2 {
+        margin: 20px 0px 0px 20px;
+    }
+
+   }
+   </style>
+</head>
+
+<body>
+   <!-- header section start -->
+   <div class="header_section">
+      <nav class="navbar navbar-expand-lg navbar-light bg-light d-none">
+         <div class="logo"><a href="index.html"><img src="images/logo.png"></a></div>
+         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+         </button>
+         <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+               <li class="nav-item active">
+                  <a class="nav-link" href="index.html">Home</a>
+               </li>
+               <li class="nav-item">
+                  <a class="nav-link" href="health.html">Health</a>
+               </li>
+               <li class="nav-item">
+                  <a class="nav-link" href="medicine.html">Medicine</a>
+               </li>
+               <li class="nav-item">
+                  <a class="nav-link" href="news.html">News</a>
+               </li>
+               <li class="nav-item">
+                  <a class="nav-link" href="client.html">Client</a>
+               </li>
+               <li class="nav-item">
+                  <a class="nav-link" href="contact.html">Contact Us</a>
+               </li>
+               <li class="nav-item">
+                  <a class="nav-link" href="#"><img src="images/search-icon.png"></a>
+               </li>
+            </ul>
+         </div>
+      </nav>
+      <!-- header section end -->
+      <!-- banner section start -->
+      <div id="main_slider" class="carousel slide" data-ride="carousel">
+         <div class="carousel-inner">
+            <div class="carousel-item active">
+               <div class="banner_section">
+                  <div class="container">
+                     <div class="row">
+                        <div class="col-md-6">
+                           <h1 class="banner_taital"><span class="text-rainbow-animation">謝謝你</span> <br><span style="color: #151515;">包師姐</span></h1>
+                           <p class="banner_text">由德信幼稚園到北角，再到油塘的這5年間對我們的教導</p>
+                        </div>
+                        <div class="col-md-6">
+                           <div class="image_1 rainbow"><img src="images/4h/1.png"></div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div> 
+      </div>
+   </div>
+   <!-- banner section end -->
+   <!-- health section start -->
+   <div class="health_section layout_padding">
+      <div class="container">
+         <h1 class="health_taital">BB們開始認識<span class="text-rainbow-animation">跆拳道</span>，也開始認識<span class="text-rainbow-animation">包師姐</span>。</h1>
+         <p class="health_text">包師姐由BB們3歲開始用心教導他們，真的很不容易，很感激你對他們的付出。</p>
+         <div class="health_section layout_padding">
+            <div class="row">
+               <div class="col-sm-12 col-md-6">
+                  <div class="image_main">
+                     <div class="main_2">
+                        <img src="images/4h/2.jpeg" alt="" class="image" style="width:100%">
+                     </div> 
+                  </div>
+               </div>
+               <div class="col-sm-12 col-md-6">
+                  <div class="image_main_1">
+                     <div class="main_2">
+                        <div class="card mb-3" style="width: 100%;">
+                           <img src="images/4h/5.jpg" alt="" class="image" style="width:100%">
+                        </div> 
+                        <div class="card" style="width: 100%;">
+                           <video controls>
+                              <source src="images/4h/4a.mp4"video/mp4">
+                              <source src="images/4h/4a.mp4" type="video/ogg">
+                              Your browser does not support HTML video.
+                           </video>
+                        </div>
+                     </div> 
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+   </div>
+   <!-- health section end -->
+   <!-- knowledge section end -->
+   <div class="knowledge_section layout_padding">
+      <div class="container">
+         <div class="knowledge_main">
+            <div class="row">
+               <div class="col-12">
+                  <h1 class="knowledge_taital">第一次<span class="text-rainbow-animation">升級</span></h1>
+                  <p class="knowledge_text">BB們第一次升級，得到包師姐的認可，BB們從包師姐領取不同顏色的腰帶，我們做家長的萬分感動。</p>
+               </div>
+            </div>
+            <div class="row">
+               <div class="col-sm-12 col-md-4">
+                  <div class="card mt-3" style="width: 100%;">
+                     <img src="images/4h/7.jpg" alt="" class="image" style="width:100%">
+                  </div> 
+               </div>
+               <div class="col-sm-12 col-md-4">
+                  <div class="card mt-3" style="width: 100%;">
+                     <img src="images/4h/6.jpeg" alt="" class="image" style="width:100%">
+                  </div> 
+               </div>
+               <div class="col-sm-12 col-md-4">
+                  <div class="card mt-3" style="width: 100%;">
+                     <img src="images/4h/yellow_1.jpg" alt="" class="image" style="width:100%">
+                  </div> 
+               </div>
+            </div>
+         </div>
+      </div>
+   </div>
+   <!-- knowledge section end -->
+   <!-- news section start -->
+   <div class="news_section layout_padding">
+      <div class="container">
+         <h1 class="health_taital">成長過程中，總會有一點點<span class="text-danger">痛</span></h1>
+         <p class="health_text">還會有一點點<span class="text-primary">淚水</span>。</p>
+         <div class="news_section_2 layout_padding">
+            <div class="row">
+               <div class="col-lg-4 col-sm-12">
+                  <div class="box_main active">
+                     <div class="icon_1"><img src="images/4h/yg_1.gif"></div> 
+                  </div>
+               </div>
+               <div class="col-lg-4 col-sm-12">
+                  <div class="box_main active">
+                     <div class="icon_1"><img src="images/4h/yg_2.jpeg"></div> 
+                  </div>
+               </div> 
+               <div class="col-lg-4 col-sm-12">
+                  <div class="box_main active">
+                     <div class="icon_1"><img src="images/4h/yg_3.gif"></div> 
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+   </div>
+   <!-- news section end -->
+   <!-- contact section start -->
+   <div class="contact_section layout_padding">
+      <div class="container">
+         <div>
+            <h1 class="contact_taital">與<span class="text-rainbow-animation">包師姐</span>共同抗疫</h1>
+         </div>
+         <div class="news_section_2">
+            <div class="row">
+               <div class="col-sm-12 col-md-8">
+                  <div class="icon_main"> 
+                     <h4 class="diabetes_text">謝謝包師姐在疫情下也為孩子們準備網課，令他們可以在電腦中上Zoom繼續學習。</h4>
+                  </div> 
+                  <div class="card mb-3" style="width: 100%;">
+                     <img src="images/4h/g_1.jpg" alt="" class="image" style="width:100%">
+                  </div> 
+               </div>
+               <div class="col-sm-12 col-md-4"> 
+                  <div class="card mb-3" style="width: 100%;">
+                     <video controls>
+                        <source src="images/4h/g_2.mp4"video/mp4">
+                        <source src="images/4h/g_2.mp4" type="video/ogg">
+                        Your browser does not support HTML video.
+                     </video>
+                  </div> 
+                  
+               </div>
+            </div>
+         </div>
+      </div>
+   </div>
+   <!-- contact section end -->
+   <!-- client section start -->
+   <div class="client_section layout_padding">
+      <div id="my_slider" class="carousel slide" data-ride="carousel">
+         <div class="carousel-inner">
+            <div class="carousel-item active">
+               <div class="container">
+                  <h1 class="client_taital">期待每一個<span class="text-primary">星期六</span></h1>
+                  <p class="client_text">開心要同包師姐分享，得獎也要跟包師姐分享。包師姐的名字在我們家時常聽見，孩子們時常說好想快D見到包師姐。</p>
+                  <div class="client_section_2">
+                     <div class="card mb-3" style="width: 100%;">
+                        <img src="images/4h/gb_1.jpg" alt="" class="image" style="width:100%">
+                     </div> 
+                  </div>
+               </div>
+            </div>
+            <div class="carousel-item">
+               <div class="container">
+                  <h1 class="client_taital"><span class="text-primary">仍</span>期待每一個<span class="text-warning">星期六</span></h1>
+                  <p class="client_text">要同師兄弟妹一起上堂，一起流汗，一起練套拳。</p>
+                  <div class="client_section_2">
+                     <div class="card mb-3" style="width: 100%;">
+                        <img src="images/4h/gb_2.jpg" alt="" class="image" style="width:100%">
+                     </div> 
+                  </div>
+               </div>
+            </div>
+            <div class="carousel-item">
+               <div class="container">
+                  <h1 class="client_taital"><span class="text-warning">今後</span>的每一個<span class="text-danger">星期六</span>，我們也會掛住包師姐。</h1>
+                  <p class="client_text">我地仍然會跟包師姐WhatsApp，分享生活，分享跆拳道，分享喜樂。</p>
+                  <div class="client_section_2">
+                     <div class="row">
+                        <div class="col-6">
+                           <div class="card mt-3" style="width: 100%;">
+                              <img src="images/4h/gb_3a.jpeg" alt="" class="image" style="width:100%">
+                           </div> 
+                        </div>
+                        <div class="col-6">
+                           <div class="card mt-3" style="width: 100%;">
+                              <img src="images/4h/gb_3b.jpeg" alt="" class="image" style="width:100%">
+                           </div> 
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+            <a class="carousel-control-prev" href="#my_slider" role="button" data-slide="prev">
+               <i class="fa fa-long-arrow-left" style="font-size:24px; padding-top: 4px;"></i>
+            </a>
+            <a class="carousel-control-next" href="#my_slider" role="button" data-slide="next">
+               <i class="fa fa-long-arrow-right" style="font-size:24px; padding-top: 4px;"></i>
+            </a>
+         </div>
+      </div>
+   </div>
+   <!-- client section end -->
+   <!-- contact section start -->
+   <div class="blue_section layout_padding">
+      <div class="container">
+         <div>
+            <h1 class="contact_taital">最後祝<span class="text-rainbow-animation">包師姐</span>一路順風，身體健康。</h1>
+         </div>
+         <div class="news_section_2">
+            <div class="row">
+               <div class="col-12">
+                  <div class="card mb-3" style="width: 100%;">
+                     <img src="images/4h/b_1.jpg" alt="" class="image" style="width:100%">
+                  </div> 
+               </div>
+            </div>
+         </div>
+      </div>
+   </div>
+   <!-- footer section start -->
+   <div class="footer_section layout_padding">
+      <div class="container">
+         <div class="row">
+            <div class="col-lg-3 col-sm-6">
+            </div>
+         </div>
+      </div>
+   </div>
+   <!-- footer section end -->
+   <!-- Javascript files-->
+   <script src="js/jquery.min.js"></script>
+   <script src="js/popper.min.js"></script>
+   <script src="js/bootstrap.bundle.min.js"></script>
+   <script src="js/jquery-3.0.0.min.js"></script>
+   <!--<script src="js/plugin.js"></script>-->
+   <!-- sidebar -->
+   <script src="js/jquery.mCustomScrollbar.concat.min.js"></script>
+   <!--<script src="js/custom.js"></script>-->
+   <!-- javascript -->
+   <script src="js/owl.carousel.js"></script>
+   <script src="https:cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.5/jquery.fancybox.min.js"></script>
+</body>
+
+</html>
