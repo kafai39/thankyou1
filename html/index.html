@@ -168,6 +168,30 @@
    .cardcontainer img {
       animation: zoominoutsinglefeatured 3s infinite ;
    }
+
+   @keyframes cf3FadeInOut {
+   0% {
+   opacity:1;
+   }
+   45% {
+   opacity:1;
+   }
+   55% {
+   opacity:0;
+   }
+   100% {
+   opacity:0;
+   }
+   }
+
+   #cf3 img.top {
+      animation-name: cf3FadeInOut;
+      animation-timing-function: ease-in-out;
+      animation-iteration-count: infinite;
+      animation-duration: 3s;
+      animation-direction: alternate;
+   }
+
    </style>
 </head>
 
@@ -275,17 +299,18 @@
             </div>
             <div class="row">
                <div class="col-sm-12 col-md-4">
-                  <div class="card mt-3" style="width: 100%;">
+                  <div class="card mt-3 square" style="width: 100%;">
                      <img src="images/4h/7.jpg" alt="" class="image" style="width:100%">
                   </div> 
                </div>
                <div class="col-sm-12 col-md-4">
-                  <div class="card mt-3" style="width: 100%;">
-                     <img src="images/4h/6.jpeg" alt="" class="image" style="width:100%">
+                  <div class="card mt-3 square" id="cf3" style="width: 100%;">
+                     <img src="images/4h/6.jpeg" alt="" class="image bottom" style="width:100%">
+                     <img src="images/4h/6b.jpg" alt="" class="image top" style="width:100%">
                   </div> 
                </div>
                <div class="col-sm-12 col-md-4">
-                  <div class="card mt-3" style="width: 100%;">
+                  <div class="card mt-3 square" style="width: 100%;">
                      <img src="images/4h/yellow_1.jpg" alt="" class="image" style="width:100%">
                   </div> 
                </div>
